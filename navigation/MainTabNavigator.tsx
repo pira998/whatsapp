@@ -24,6 +24,7 @@ export default function BottomTabNavigator() {
         activeTintColor: Colors[colorScheme].background,
         style:{
           backgroundColor:Colors[colorScheme].tint,
+          
 
         },
         indicatorStyle:{
@@ -41,7 +42,9 @@ export default function BottomTabNavigator() {
           tabBarIcon: ({ color }) => <Fontisto name="camera" color={color} size={20} />,
           tabBarLabel:()=>null,
           
+          
         }}
+        
       />
       <MainTab.Screen
         name="Chats"
